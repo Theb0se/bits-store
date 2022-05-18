@@ -1,0 +1,78 @@
+.navbar {
+  background-color: #efefef;
+  padding: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.logo img {
+  max-height: 50px;
+  max-width: 50px;
+  padding: 0;
+}
+.logo h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-family: "Lobster", cursive;
+  margin-left: 5px;
+  color: #e8630a;
+  font-weight: 300;
+}
+
+.navLinks ul {
+  display: flex;
+  list-style: none;
+}
+.navLinks ul li {
+  margin: 0 15px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #fff;
+  cursor: pointer;
+}
+.avatar img {
+  width: 100%;
+  height: 100%;
+}
+.profileData {
+  padding: 5px 0;
+  max-height: 0;
+  width: 200px;
+  position: absolute;
+  right: 80px;
+  margin-right: 20px;
+  overflow: hidden;
+  background-color: #efefef;
+  transition: 0.2s ease-in;
+}
+.profileData ul {
+  list-style: none;
+  text-align: start;
+  padding: 0;
+  margin: 0;
+}
+.profileData ul li {
+  padding: 15px 10px;
+  border-bottom: 1px solid rgb(209, 209, 209);
+  cursor: pointer;
+}
+.profileDataOpen {
+  max-height:265px;
+  transition: 0.5s ease-in;
+}
